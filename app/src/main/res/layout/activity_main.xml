@@ -49,6 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="484dp"
         android:text="Click Me"
+        app:backgroundTint="#3F51B5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
