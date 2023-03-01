@@ -11,7 +11,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         
         btnToast.setOnClickListener{
-            Toast.makeText(this, "Hello World", Toast.LENGTH_SHORT).show()
+            val message = txtMessage.text
+            Toast.makeText(this, "Message: $message", Toast.LENGTH_SHORT).show()
         }
     }
 
